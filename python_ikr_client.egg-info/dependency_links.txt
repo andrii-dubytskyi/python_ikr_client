@@ -1,0 +1,1 @@
+https://github.com/jonathanslenders/python-prompt-toolkit/archive/2.0.zip#egg=prompt_toolkit
