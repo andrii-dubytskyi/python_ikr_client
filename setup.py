@@ -2,7 +2,7 @@ from setuptools import setup
 import sys
 
 setup(name='python_ikr_client',
-      version='1.0.6',
+      version='1.1',
       description='',
       url='https://github.com/andrii-dubytskyi/python_ikr_client.git',
       download_url = 'https://github.com/andrii-dubytskyi/python_ikr_client/archive/master.zip',
