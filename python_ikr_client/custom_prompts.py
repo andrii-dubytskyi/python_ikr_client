@@ -10,7 +10,7 @@ from prompt_toolkit.layout import Layout
 from prompt_toolkit.layout.containers import HSplit, VSplit
 from prompt_toolkit.layout.dimension import Dimension as D
 from prompt_toolkit.widgets import ProgressBar, Dialog, Button, Label, Box, TextArea, RadioList
-from custom_widgets import SwitchButton
+from python_ikr_client.custom_widgets import SwitchButton
 
 
 
