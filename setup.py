@@ -2,7 +2,7 @@ from setuptools import setup
 import sys
 
 setup(name='python_ikr_client',
-      version='1.0.4',
+      version='1.0.5',
       description='',
       url='https://github.com/andrii-dubytskyi/python_ikr_client.git',
       download_url = 'https://github.com/andrii-dubytskyi/python_ikr_client/archive/master.zip',
@@ -33,8 +33,8 @@ def configure():
     from prompt_toolkit.layout.dimension import Dimension as D
     from prompt_toolkit.widgets import MenuContainer, MenuItem
     import time
-    from custom_prompts import form
-    from python_ikr_client import ikr_client as ikr
+    from python_ikr_client.custom_prompts import form
+    from python_ikr_client.python_ikr_client import ikr_client as ikr
 
     config = {
         'server_url': ikr.config['server_url']

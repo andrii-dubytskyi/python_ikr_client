@@ -1,5 +1,7 @@
 setup.py
 python_ikr_client/__init__.py
+python_ikr_client/custom_prompts.py
+python_ikr_client/custom_widgets.py
 python_ikr_client/ikr_client.py
 python_ikr_client.egg-info/PKG-INFO
 python_ikr_client.egg-info/SOURCES.txt
