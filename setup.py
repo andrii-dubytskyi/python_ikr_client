@@ -2,9 +2,10 @@ from setuptools import setup
 import sys
 
 setup(name='python_ikr_client',
-      version='1.0',
+      version='1.0.2',
       description='',
-      url='',
+      url='https://github.com/andrii-dubytskyi/python_ikr_client.git',
+      download_url = 'https://github.com/andrii-dubytskyi/python_ikr_client/archive/master.zip',
       author='Chi Tester',
       author_email='chi.tester@gmail.com',
       license='MIT',
@@ -114,5 +115,5 @@ def configure():
     show_ikr_login_form()
     show_directory_setup_form()
 
-if len(sys.argv) > 0 and sys.argv[1] == "install":
+if (len(sys.argv) > 0 and sys.argv[1] != "sdist") or len(sys.argv) == 0:
     configure()

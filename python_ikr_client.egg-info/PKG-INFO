@@ -1,10 +1,11 @@
-Metadata-Version: 1.0
+Metadata-Version: 1.1
 Name: python-ikr-client
-Version: 1.0
+Version: 1.0.2
 Summary: UNKNOWN
-Home-page: UNKNOWN
+Home-page: https://github.com/andrii-dubytskyi/python_ikr_client.git
 Author: Chi Tester
 Author-email: chi.tester@gmail.com
 License: MIT
+Download-URL: https://github.com/andrii-dubytskyi/python_ikr_client/archive/master.zip
 Description: UNKNOWN
 Platform: UNKNOWN
